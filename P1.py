@@ -4,7 +4,7 @@ import time
 mpDraw = mp.solutions.drawing_utils
 mpPose = mp.solutions.pose 
 pose = mpPose.Pose() 
-
+#CHANGE THE PATH OF THE VIDEO WHILE RUNNING THIS CODE, ACCORDINGLY.
 cap = cv2.VideoCapture('C:/Users/AMAN JOSHI/Downloads/ML_Project/video4.mp4') #Choose Any video for checking
 pTime = 0 
 
